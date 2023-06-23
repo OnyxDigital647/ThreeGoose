@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #16D5FF;
+    --bs-secondary: #999;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #F2F8FE;
+    --bs-dark: #111;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+    scroll-behavior: smooth
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
+    background-color: black;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Kanit', sans-serif !important;
+}
+button{
+    cursor: pointer;
+}
+.d-flex{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 100%;
+    padding: 12px 50px;
+}
+.container-fluid{
+    width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mt{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mt-2{margin-top: 48px;
+}
+.py-5{
+    padding:0px 200px;
+}
+.py-4{
+    padding:100px 100px;
+}
+.py-3{
+padding: 50px 50px;
+}
+.bg-white{
+    background-color: white;
+}
+.col-lg-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-3 {
+    width: 25%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-4 {
+    width: 33.33%;
+    flex: 0 0 auto;
+    padding: 0px 10px;
+}
+
+.col-lg-5 {
+    width: 41.66%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-6 {
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 0 10px;
+}
+
+.col-lg-7 {
+    width: 58.33%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-8 {
+    width: 66.66%;
+    flex: 0 0 auto;
+    padding: 0px 10px
+}
+
+.col-lg-9 {
+    width: 75%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-10 {
+    width: 83.33%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-11 {
+    width: 91.66%;
+    flex: 0 0 auto;
+    padding: 0px 12px
+}
+
+.col-lg-12 {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0px 10px;
+}
+@media screen and (max-width:767px) {
+.row {
+      display: block;
+    }
+    .rowflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .d-flex {
+            display: block;
+        }
+                .py-4 {
+                    padding: 0px 0px;
+                }
+                                .py-3 {
+                                    padding: 0px 0px;
+                                }
+                .container {
+                    width: 100%;
+                    padding: 12px 20px;
+                }
+                                .mt-2 {
+                                    margin-top: 30px;
+                                }
+                .col-sm-1 {
+                    width: 8.33%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-2 {
+                    width: 16.66%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-3 {
+                    width: 25%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-4 {
+                    width: 33.33%;
+                    flex: 0 0 auto;
+                    padding: 0px 10px;
+                }
+        
+                .col-sm-5 {
+                    width: 41.66%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-6 {
+                    width: 50%;
+                    flex: 0 0 auto;
+                    padding: 0 10px;
+                }
+        
+                .col-sm-7 {
+                    width: 58.33%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-8 {
+                    width: 66.66%;
+                    flex: 0 0 auto;
+                    padding: 0px 10px
+                }
+        
+                .col-sm-9 {
+                    width: 75%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-10 {
+                    width: 83.33%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-11 {
+                    width: 91.66%;
+                    flex: 0 0 auto;
+                    padding: 0px 12px
+                }
+        
+                .col-sm-12 {
+                    width: 100%;
+                    flex: 0 0 auto;
+                    padding: 0px 10px;
+                }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .d-flex {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    .row {
+            display: flex;
+        }
+    .container {
+            width: 100%;
+            padding: 12px 20px;
+        }
+    
+        .mt-2 {
+            margin-top: 30px;
+        }
+          .py-4 {
+              padding: 0px 0px;
+          }
+    
+          .py-3 {
+              padding: 0px 0px;
+          }
+        .col-lg-1 {
+            width: 8.33%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-md-2 {
+            width: 16.66%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-3 {
+            width: 25%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-4 {
+            width: 33.33%;
+            flex: 0 0 auto;
+            padding: 0px 10px;
+        }
+    
+        .col-lg-5 {
+            width: 41.66%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-6 {
+            width: 50%;
+            flex: 0 0 auto;
+            padding: 0 10px;
+        }
+                .col-md-6 {
+                    width: 50%;
+                    flex: 0 0 auto;
+                    padding: 0 10px;
+                }
+    
+        .col-lg-7 {
+            width: 58.33%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-8 {
+            width: 66.66%;
+            flex: 0 0 auto;
+            padding: 0px 10px
+        }
+    
+        .col-lg-9 {
+            width: 75%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-10 {
+            width: 83.33%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-11 {
+            width: 91.66%;
+            flex: 0 0 auto;
+            padding: 0px 12px
+        }
+    
+        .col-lg-12 {
+            width: 100%;
+            flex: 0 0 auto;
+            padding: 0px 10px;
+        }
+}
