@@ -857,21 +857,23 @@
         background-color: white;
         top:0%;
         left: -100%;
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
         border-radius: 3px;
         padding: 1rem 1.5rem;
-        display: none;
         z-index: 9999;
         transition: .5s all;
         opacity: 0;
         overflow: hidden;
+        transform:translate(-50%,-50%);
+        visibility:hidden;
     }
 .navlistmobile{
     transition: .5s all;
 display: block;
-left:0%;
+left:50%;
 opacity: 1;
+    visibility:visible;
 }
     .navlist ul {
         display: block;
